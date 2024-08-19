@@ -5,7 +5,7 @@ import (
 	"iter"
 )
 
-// Merge allows you to merge multiple iterators into one. Iterators that has infinite values will produce a livelock
+// Merge allows you to merge multiple iterators into one.
 func Merge[K any, V any](iterators ...iter.Seq2[K, V]) iter.Seq2[K, V] {
 	type Pairs struct {
 		key   K
