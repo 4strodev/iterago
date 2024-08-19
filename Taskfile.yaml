@@ -1,0 +1,15 @@
+version: '3'
+
+tasks:
+  coverage:
+    desc: "See test coverage"
+    deps:
+      - test
+    cmds:
+      - go tool cover -html=./tests/cover.out
+
+  test:
+    desc: "Execute test and with coverage"
+    cmds:
+      - go test -v ./... -cover -coverprofile=./tests/cover.out
+
