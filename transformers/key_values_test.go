@@ -3,8 +3,8 @@ package transformers_test
 import (
 	"testing"
 
-	"github.com/4strodev/iterators/builders"
-	"github.com/4strodev/iterators/transformers"
+	"github.com/4strodev/iterago/builders"
+	"github.com/4strodev/iterago/transformers"
 	"github.com/stretchr/testify/assert"
 )
 

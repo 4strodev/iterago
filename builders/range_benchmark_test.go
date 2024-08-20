@@ -4,8 +4,8 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/4strodev/iterators/builders"
-	"github.com/4strodev/iterators/transformers"
+	"github.com/4strodev/iterago/builders"
+	"github.com/4strodev/iterago/transformers"
 )
 
 func bencharkRange(start int, end int, jump int, b *testing.B) {

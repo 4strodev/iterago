@@ -1,4 +1,4 @@
-module github.com/4strodev/iterators
+module github.com/4strodev/iterago
 
 go 1.23.0
 
